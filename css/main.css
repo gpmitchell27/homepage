@@ -36,6 +36,33 @@ a:active {
 	clear:both;
 }
 
+.feature {
+	font-size:2.2em;
+	color:#0f83b3;
+	padding:10px;
+	width:97.86%;
+	margin-left:3.344334%;
+}
+
+.orange {
+	color:#ff9600;
+}
+
+.medium {
+	width:65%;
+	font-size:2.0em;
+}
+
+#global_nav li.no_border {
+	border:none;
+}
+
+.shadow {
+	text-shadow: 0px 1px 2px #000;
+	-moz-text-shadow: 0px 1px 2px #000;
+	-webkit-text-shadow: 0px 1px 2px #000;
+
+}
 
 /* Color Swatch ============================================================================ 
 
@@ -48,13 +75,21 @@ neon yellow #dbf36c
 
 
 /* ====================================== Layout */
+html {
+	width:100%;
+	height:100%;
+}
 
 body{
 	max-width:960px;
+	min-height:100%;
 	margin:0 auto;	
 	padding:0;	
 	font:85%/1.2 "Helvetica Neue" , Arial, Helvetica, sans-serif;
-	background:#eee;
+	background:#f2f2f2;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
 #wrapper {
@@ -74,9 +109,11 @@ body{
 #main_content {
 	width:97.91667%; /*940px;*/
 	float:right;
-	margin-right:1.0638298%; /*10px*/
+	margin-right:.8638298%; /*10px*/
 	padding:0;
 	overflow:hidden;
+	border:1px solid #dfe2e6;
+	background:#fff;
 }
 
 footer {
@@ -135,88 +172,78 @@ footer {
 }
 
 
+
 /* ====================================== Header Top */
 
 /* ====================================== Sidebar */
 
 #side_nav {
-	width:24.4681%; /*230px*/
-	background: #555 url('../images/secondary_nav_bg.jpg') top repeat;
-	margin-left:1.2765957%; /*12px*/
+	width:23.4681%; /*230px*/
+	border:1px solid #dfe2e6;
+	background:#fff;
+	margin-right:1.265957%; /*12px*/
 	margin-top:1.0638298%; /*10px*/
-	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
-	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
 	padding-bottom:3.191%; /*30px/940*/
-	float:left;
+	float:right;
 }
 
 #side_nav h3 {
 	color:#0e6b92;
 	font-size:1.4em;
 	padding-left:6.3478261%;
-	padding-top:1.173913%; /*5px*/
-
+	padding-top:.913913%; /*5px*/
+	width:94%;
 }
 
 ul#brands_nav {
 	list-style-type: none;
 	margin-left:4.3478261%; /*10px*/
 	width:40%; /*92px*/
-	padding:0;
-	position:relative;
-	top:-13px;
+	margin-top:1%;
+
 }
 
 #brands_nav li {
-	margin-top:14.130435%; /*13px;*/
+	margin-top:3.930435%; /*13px;*/
 }
 
 #brands_nav a {
-	color:#fff;
+	color:#404040;
 	font-size:1.1em;
 	padding:0;
 }
 
 .top_heading {
-	background:url('../images/top_header.png') top left no-repeat;
 	width:100%; /*243px*/
-	height:41px;
-	z-index:4;
-	position:relative;
-	top:10px;
-	left:-13px;
+	background:#ddd;
 }
 
 section {
-	width:24.4681%; /*230px*/
-	background: #555 url('../images/secondary_nav_bg.jpg') top repeat;
-	margin-left:1.2765957%; /*12px*/
-	margin-top:1.0638298%; /*20px;*/
-	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
-	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
-	padding-bottom:3.1914894%; /*30px*/
-	float:left;	
-	clear:left;
+	width:23.4681%; /*230px*/
+	border:1px solid #dfe2e6;
+	background:#fff;
+	margin-right:1.265957%; /*12px*/
+	margin-top:1.0638298%; /*10px*/
+	padding-bottom:3.191%; /*30px/940*/
+	float:right;
+	clear:right;
 }
 
 section p {
 	width:93.478261%; /*215px*/
 	padding:2.173913% 4.3478261% 0 4.3478261%; /*5px 10px 0 10px*/
-	color:#b4da00;
+	color:#656565;
 }
 
-section h3 {
+section .top_heading {
 	color:#0e6b92;
 	font-size:1.4em;
-	padding-left:6.3478261%;
-	padding-top:1.173913%; /*5px*/
-
+	width:94%;
+	padding-left:6.33433%;
 }
 
 section a:link {
-	color:#fff;
+	color:#404040;
 	float:right;
 	font-size:0.975em;
 	padding-right:4.3478261%; /*10px*/
@@ -228,7 +255,7 @@ section a:link {
 /* Main Navigation */
 
 nav {
-	background: -webkit-gradient(linear, bottom, left 940px, from(#b4da00), to(#dbf36c));
+	background: -webkit-gradient(linear, left top, left bottom, from(#b4da00), to(#dbf36c));	
 	background: -moz-linear-gradient(bottom, #b4da00, #dbf36c 940px);
 	width:97.91667%; /*940px;*/
 	margin:0;
@@ -240,7 +267,7 @@ nav {
 .glare {
 	width:100%; /*230px*/
 	height:50px;
-	background:url('../images/glare.png') no-repeat top;
+	background:transparent;
 	height:50px;
 }
 
@@ -281,9 +308,9 @@ ul#global_nav {
 	width:71.276596%; /*670px*/
 	height:27.12766%; /*254px*/
 	background:#fff;
-	float:right;
+	float:left;
 	padding:.74468085% .74468085% .74468085% .74468085% ; /*7px 7px 7px 7px*/
-	margin:1.0638298% 0 0 0; /*10px 5px */
+	margin:1.0638298% 0 0 1.0638298%; /*10px 5px */
 	border:1px solid #dfe2e6;
 }
 
@@ -302,7 +329,6 @@ ul#global_nav {
 	border:none;
 	float:left;
 	max-width:100%;
-	padding-top:1.0416667%; /*10px*/
 }
 
 /* Welcome message */
@@ -311,6 +337,7 @@ ul#global_nav {
 	width:72.978723%; /*686px*/
 	background:#000;
 	float:right;
+	display:none;
 }
 
 #welcome_message p {
@@ -323,11 +350,12 @@ ul#global_nav {
 
 #products {
 	width:72.978723%; /*686px*/
-	float:right;
+	float:left;
 	margin-top:.95744681%; /*9px*/
+	margin-left:.9044681%; /*9px*/
 	overflow:hidden;
 	background:#fff;
-	padding-bottom:2.8723404%; /*27px/940*/
+	padding-bottom:2.4723404%; /*27px/940*/
 	border:1px solid #dfe2e6;
 }
 
@@ -335,7 +363,7 @@ ul#global_nav {
 	color:#0e6b92;
 	font-size:1.4em;
 	margin-bottom:2.9154519%; /*20px*/
-	background: -webkit-gradient(linear, bottom, left 100%, from(#dedede), to(#fff));
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
 	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
 	border-bottom:1px solid #ccc;
 	border-top:1px solid #f3f3f3;
@@ -378,19 +406,21 @@ ul#global_nav {
 }
 
 a.product_info_title {
-	color: #666; 
+	color: #0e6b92; 
 	font-weight: bold; 
 	font-size: 1em; 
 	display: block; 
 	text-decoration: underline;
 	float:left;
-	padding-left:.72886297%; /*5px*/	
+	padding-left:1.99886297%; /*5px*/	
+	padding-top:1.99886297%; /*5px*/	
 }
 
 .product_detail {
 	float:left;
 	width:62%;
-	padding:0.21954519%; /*2px*/
+	padding-left:1.99886297%; /*5px*/	
+	padding-top:1.99886297%; /*5px*/	
 	margin-left:.53191489%; /*5px*/
 	font-size:0.875em;
 }
@@ -398,15 +428,14 @@ a.product_info_title {
 /* Clients list */
 
 #clients {
-	width:64.361702%; /*65px*/
-	padding-bottom:6.9418936%; /*67px/940*/
-	overflow:hidden;
-	background: -webkit-gradient(linear, bottom, left 675px, from(#000), to(#444));
-	background: -moz-linear-gradient(bottom, #000, #444 675px);
+	width:72.978723%; /*686px*/
 	float:left;
-	margin-left:0.10638298%;  /*1px*/
-	margin-top:1.0416667%; /*10px*/
-
+	margin-top:.95744681%; /*9px*/
+	margin-left:.9044681%; /*9px*/
+	overflow:hidden;
+	background:#fff;
+	padding-bottom:2.4723404%; /*27px/940*/
+	border:1px solid #dfe2e6;
 }
 
 #clients ul {
@@ -419,13 +448,13 @@ a.product_info_title {
 #clients li {
 	margin-top:2.3688663%; /*14px*/
 	float:left;
-	color:#fff;
+	color:#555;
 	font-size:0.875em;
 }
 
 #clients ul li {
 	float:left;
-	width:23.688663%; /*140px*/
+	width:24.688663%; /*140px*/
 	padding-left:5.0761421%; /*30px/591*/
 }
 
@@ -434,7 +463,7 @@ a.product_info_title {
 	font-size:1.4em;
 	padding-left:3.3840948%; /*20px/591*/
 	padding-top:.84602369%; /*5px*/
-	background: -webkit-gradient(linear, bottom, left 100%, from(#dedede), to(#fff));
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
 	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
 	padding-bottom:.50761421%; /*3px*/
 	border:1px solid #dfe2e6;
@@ -443,7 +472,7 @@ a.product_info_title {
 
 
 #paypal_logo {
-	width:34.255319%; /*322/940px*/
+	width:23.4681%; /*230px*/
 	background:#fff;
 	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
@@ -452,9 +481,12 @@ a.product_info_title {
 	height:100px;
 	margin-top:1.0416667%; /*10px*/
 	overflow:hidden;
-	background: -webkit-gradient(linear, bottom, left 675px, from(#000), to(#444));
-	background: -moz-linear-gradient(bottom, #000, #444 675px);
-	padding-bottom:22.978723%; /*77px/940*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));	
+	background: -moz-linear-gradient(bottom, #eee, #fff 675px);
+	margin-right:1.265957%; /*12px*/
+	margin-top:1.0638298%; /*10px*/
+	padding-bottom:19.191%; /*30px/940*/
+	float:right;
 
 }
 
@@ -463,7 +495,7 @@ a.product_info_title {
 	font-size:1.4em;
 	padding-left:3.3840948%; /*20px/591*/
 	padding-top:.84602369%; /*5px*/
-	background: -webkit-gradient(linear, bottom, left 100%, from(#dedede), to(#fff));
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
 	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
 	padding-bottom:.50761421%; /*3px*/
 	border:1px solid #dfe2e6;
@@ -500,7 +532,7 @@ a.product_info_title {
 }
 
 .boatgraphic {
-	width:33.510638%; /*315px*/
+	width:23.4681%; /*230px*/
 
 }
 
@@ -508,15 +540,16 @@ a.product_info_title {
 	width:140%;
 	background:#ff0000;
 	position:relative;
-	top:10px;
-	left:150px;
+	top:30px;
+	left:100px;
 }
 
 .boatgraphic p {
 	color:#dedede;
 	position:relative;
-	top:-60px;
+	top:-20px;
 	left:15px;
+	color:#000;
 
 }
 
@@ -582,7 +615,7 @@ p.no_height {
 
 
 #custom_form form {
-	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));	
 	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
 	margin:20px 0 0 0;
 	width:93.617021%; /*880px*/
@@ -651,8 +684,9 @@ textarea#textarea {
 
 #form_container {
 	width:71.914894%; /*676px*/
-	float:right;
+	float:left;
 	padding-bottom:4.2553191%; /*40px*/
+	margin-left:1.265957%; /*12px*/
 }
 
 #custom_form p {
@@ -671,7 +705,7 @@ textarea#textarea {
 	margin-right:10px;
 	padding-left:20px;
 	padding-right:10px;
-	background: -webkit-gradient(linear, bottom, left 100%, from(#dedede), to(#fff));
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
 	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
 	padding-bottom:3px;
 	border:1px solid #ccc;
@@ -683,15 +717,15 @@ textarea#textarea {
 /* ====================================== AboutUs elements */
 
 #aboutus_info {
-	float:right;
-	width:71%;
-	margin-right:2.1276596%; /*20px/940*/
+	float:left;
+	width:73%;
+	margin-left:1.4992504%; /*10px*/
 }
 
 #aboutus_info h3 {
 	color:#0e6b92;
 	font-size:2.4em;
-	background: -webkit-gradient(linear, bottom, left 100%, from(#dedede), to(#fff));
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
 	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
 	padding-bottom:.44977511%; /*3px/667px*/
 	padding-left:1.44977511%; /*3px/667px*/
@@ -708,7 +742,7 @@ textarea#textarea {
 }
 
 #aboutus_info p {
-	line-height:1.4;
+	line-height:1.5;
 	margin-top:1.4992504%; /*10px/667*/
 }
 
@@ -924,7 +958,7 @@ ul#global_nav {
 	margin:0;
 	position:absolute;
 	top:400px;
-	left:10;
+	left:10px;
 }
 
 #side_nav ul {
@@ -936,7 +970,7 @@ ul#global_nav {
 	width:97.91667%; /*940px;*/
 	position:absolute;
 	top:250px;
-	left:10;
+	left:10px;
 }
 
 section, #paypal_logo, #products, #clients
