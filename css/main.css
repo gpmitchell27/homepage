@@ -83,7 +83,7 @@ a:active {
 	display: block;
 	width: 92px;
 	height: 24px;
-	padding: 4px 0 0 0;
+	padding: 6px 0 0 0;
 	background:	url(../images/button.png) no-repeat;
 	color: #ccc;
 	font-weight: bold;
@@ -91,6 +91,11 @@ a:active {
 	text-align: center;
 	text-decoration: none;
 	margin:3.5454545% 0 0 3.4343435%;
+}
+
+.button a:hover {
+	background:	url(../images/button_hover.png) no-repeat;
+
 }
 
 .grey {
@@ -135,7 +140,7 @@ h1 {
 
 h3 {
 	padding:1%;
-	margin-left:8.434565%;
+	margin-left:12.434565%;
 }
 
 h2 {
@@ -179,6 +184,7 @@ body{
 	margin:0 auto;
 	padding:0;
 	background:url('../images/global_bg2.jpg')repeat;
+	overflow:hidden;
 }
 
 #header_top {
@@ -195,6 +201,7 @@ body{
 	padding:0;
 	background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#000));	
 	background: -moz-linear-gradient(bottom, #323232, #000 940px);
+	overflow:hidden;
 }
 
 footer {
@@ -204,7 +211,7 @@ footer {
 	height:190px;
 	color:#fff;
 	width:97.8125%; /*939px*/
-	margin-left:1.0638298%; /*10px*/;
+	margin-left:1.25656%; /*10px*/;
 	clear:both;
 }
 
@@ -457,6 +464,7 @@ ul#global_nav {
 	margin-top:.53191489%; /*5px*/
 	width:100%; /*591px*/
 	line-height:1.2;
+	margin-left:5.5%;
 }
 
 #clients li {
