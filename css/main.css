@@ -92,14 +92,25 @@ a:active {
 	background:	url(../images/button.png) no-repeat;
 	color: #ccc;
 	font-weight: bold;
-	font-size: 11px;
+	font-size: 0.875em;
 	text-align: center;
 	text-decoration: none;
 	margin:3.5454545% 0 0 .700024%;
+  	-moz-transition-property: font-size;
+  	-moz-transition-duration: 1s;
+  	-moz-transition-timing-function: ease-out;
+  	-webkit-transition-property: font-size;
+  	-webkit-transition-duration: 1s;
+  	-webkit-transition-timing-function: ease-out;
+  	-o-transition-property: font-size;
+  	-o-transition-duration: 1s;
+ 	-o-transition-timing-function: ease-out;
 }
+
 
 .button a:hover {
 	background:	url(../images/button_hover.png) no-repeat;
+	font-size: 1.2em;
 }
 
 .grey {
