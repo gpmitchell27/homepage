@@ -452,20 +452,13 @@ ul#global_nav {
 	max-width:100%;
 }
 
-/* Welcome message */
+/* Custom design */
 
-#welcome_message {
+#custom_design {
 	width:72.978723%; /*686px*/
 	background:#000;
-	float:right;
 	display:none;
 }
-
-#welcome_message p {
-	color:#0f83b3;
-	padding:1.0416667%; /*10px*/
-}
-
 
 /* Clients list */
 
@@ -693,19 +686,14 @@ textarea#textarea {
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and  (min-width:480px) and (max-width:767px) {
 	nav {
-	background: -webkit-gradient(linear, bottom, left 940px, from(#b4da00), to(#dbf36c));
-	background: -moz-linear-gradient(bottom, #b4da00, #dbf36c 940px);
+	background: -webkit-gradient(linear, bottom, left 940px, from(#fff), to(#dbf36c));
+	background: -moz-linear-gradient(bottom, #fff, #dbf36c 940px);
 	width:97.91667%; /*940px;*/
 	height:50px; /*64px;*/
 	margin-right:.95744681%; /*8px*/
 	padding:0;
 	float:right;
 	font-size:0.825em;
-}
-
-#welcome_message p {
-	max-height:145px;
-	overflow:scroll;
 }
 
 .prod_container3 {
