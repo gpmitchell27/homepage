@@ -32,6 +32,7 @@ a:hover {
 a:active {
 	color:#fff;
 }
+
 .clearFix {
 	clear:both;
 }
@@ -57,14 +58,12 @@ a:active {
 .medium {
 	width:72.25%;
 	font-size:2.0em;
-	background:#fff
 	float:left;
 }
 
 #global_nav li.no_border {
 	border:none;
 }
-
 
 .shadow {
 	text-shadow: 0px 1px 2px #000;
@@ -95,7 +94,6 @@ a:active {
 
 .button a:hover {
 	background:	url(../images/button_hover.png) no-repeat;
-
 }
 
 .grey {
@@ -288,7 +286,6 @@ h3 {
 	float:right;
 }
 
-
 ul#brands_nav {
 	margin-left:3.61%; /*10px*/
 	width:88%; /*92px*/
@@ -348,6 +345,7 @@ section a:link {
 	font-size:0.975em;
 	padding-right:4.3478261%; /*10px*/
 }
+
 /* ====================================== Sidebar */
 
 /* ====================================== Main Content */
@@ -364,11 +362,11 @@ nav {
 	margin-left:1.0638298%; /*10px*/
 	background:#b4da00;
 }
+
 .glare {
 	width:100%; /*230px*/
 	height:50px;
 	background:url('../images/glare.png');
-	height:50px;
 }
 
 ul#global_nav {
@@ -397,10 +395,12 @@ ul#global_nav {
 	color:#000;
 	font-size:1em;
 }
+
 #global_nav li a:hover {
 	background:url('../images/glare.png') bottom;
 	height:35px;
 	color:#000;
+	display:block;
 }
 
 /* Flex Slider */
@@ -785,7 +785,6 @@ textarea#textarea {
 	font-size:0.825em;
 }
 
-
 #welcome_message p {
 	max-height:145px;
 	overflow:scroll;
@@ -827,7 +826,6 @@ footer {
 	position:relative;
 	top:-170px;
 }
-
 
 ul#brands_nav {
 	position:relative;
@@ -946,6 +944,7 @@ ul#global_nav {
 	font-size:1.4em;
 	width:97.91667%; /*940px;*/
 }
+
 #global_nav li a:hover {
 	background:#dbf36c;
 	color:#000;
@@ -960,7 +959,6 @@ ul#global_nav {
 	background:transparent;
 	height:50px;
 }
-
 
 #side_nav {
 	width:97.91667%; /*940px;*/
@@ -983,8 +981,7 @@ ul#global_nav {
 	left:10px;
 }
 
-section, #paypal_logo, #products, #clients
-  {
+section, #paypal_logo, #products, #clients {
 	display:none;
 }
 
@@ -1041,11 +1038,11 @@ footer {
 	display:none;
 }
 
-
 #flex_slider {
 	display:none;
 }
+
 #header_top {
 	display:none;
 }
-
+}
