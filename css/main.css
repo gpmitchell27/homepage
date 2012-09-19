@@ -39,29 +39,80 @@ a:active {
 .feature {
 	font-size:2.2em;
 	color:#0f83b3;
-	padding:10px;
-	width:97.86%;
-	margin-left:3.344334%;
+	padding:12px 12px 12px 12px;
+	width:97.340426%;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#000;
 }
 
-.orange {
-	color:#ff9600;
+.black {
+	color:#000;
+}
+
+.green {
+	color:#b4da00;
 }
 
 .medium {
-	width:65%;
+	width:72.25%;
 	font-size:2.0em;
+	background:#fff
+	float:left;
 }
 
 #global_nav li.no_border {
 	border:none;
 }
 
+
 .shadow {
 	text-shadow: 0px 1px 2px #000;
 	-moz-text-shadow: 0px 1px 2px #000;
 	-webkit-text-shadow: 0px 1px 2px #000;
+}
 
+.round_bottom_right {
+	-webkit-border-radius: 0px 0 20px 0;
+	-moz-border-radius: 0px 0 20px 0;
+	border-radius: 0px 0 20px 0;
+}
+
+.round_top_left {
+	-webkit-border-radius: 10px 0 10px 0;
+	-moz-border-radius: 10px 0 10px 0;
+	border-radius: 10px 0 10px 0;
+}
+
+.half_round {
+	-webkit-border-radius: 0px 0 10px 10pc;
+	-moz-border-radius: 0px 0 10px 10px;
+	border-radius: 0px 0 10px 10px;
+}
+
+.float_Left {
+	float:left;
+}
+
+.float_Right {
+	float:right;
+}
+
+.left_space {
+	padding-left:5.23323%;
+	padding-bottom:5.23323%;
+	padding-top:2.223424%;
+}
+
+.above {
+	position:relative;
+	top:1px;
+	left:10px;
+	z-index:6;
+	float:right;
+}
+
+h1 {
+	overflow:hidden;
 }
 
 /* Color Swatch ============================================================================ 
@@ -75,10 +126,7 @@ neon yellow #dbf36c
 
 
 /* ====================================== Layout */
-html {
-	width:100%;
-	height:100%;
-}
+
 
 body{
 	max-width:960px;
@@ -101,7 +149,7 @@ body{
 
 #header_top {
 	width:97.916667%; /*940px*/
-	background:url('../images/top_bg.jpg') repeat-x top;
+	background:#000;
 	margin-left:1.0638298%; /*10px*/
 	height:50px;
 }
@@ -111,9 +159,7 @@ body{
 	float:right;
 	margin-right:.8638298%; /*10px*/
 	padding:0;
-	overflow:hidden;
-	border:1px solid #dfe2e6;
-	background:#fff;
+	background:url('../images/main_bg.jpg') repeat-x;
 }
 
 footer {
@@ -166,12 +212,28 @@ footer {
 
 .dark input[type=text]{
 	border:1px solid #2a2e31;
-	background-color:#3c3c3c;
-	color:#fff;
+	background-color:#fff;
+	color:#747474;
 	float:right;
+  	-moz-transition-property: width;
+  	-moz-transition-duration: 1s;
+  	-moz-transition-timing-function: ease-out;
+  	-webkit-transition-property: width;
+  	-webkit-transition-duration: 1s;
+  	-webkit-transition-timing-function: ease-out;
+  	-o-transition-property: width;
+  	-o-transition-duration: 1s;
+ 	-o-transition-timing-function: ease-out;
+ 	width:20%;
 }
 
+.dark input:hover {
+	width:55%;
+}
 
+h3 {
+	font-size:2.2em;
+}
 
 /* ====================================== Header Top */
 
@@ -179,43 +241,38 @@ footer {
 
 #side_nav {
 	width:23.4681%; /*230px*/
-	border:1px solid #dfe2e6;
-	background:#fff;
 	margin-right:1.265957%; /*12px*/
-	margin-top:1.0638298%; /*10px*/
-	padding-bottom:3.191%; /*30px/940*/
+	margin-top:1.0534298%; /*10px*/
+	padding-bottom:2.701%; /*30px/940*/
 	float:right;
 }
 
-#side_nav h3 {
-	color:#0e6b92;
-	font-size:1.4em;
-	padding-left:6.3478261%;
-	padding-top:.913913%; /*5px*/
-	width:94%;
-}
 
 ul#brands_nav {
-	list-style-type: none;
-	margin-left:4.3478261%; /*10px*/
-	width:40%; /*92px*/
-	margin-top:1%;
+	margin-left:3.61%; /*10px*/
+	width:88%; /*92px*/
+	padding:0 2.00005% 2.44345% 2.44345%;
+	list-style-type:square;
 
 }
 
 #brands_nav li {
-	margin-top:3.930435%; /*13px;*/
+	margin-top:.930435%; /*13px;*/
+	padding-top:1.44434%;
 }
 
 #brands_nav a {
-	color:#404040;
-	font-size:1.1em;
-	padding:0;
+	color:#626262;
+	font-size:1.25em;
 }
 
 .top_heading {
 	width:100%; /*243px*/
-	background:#ddd;
+	padding-top:5px;
+}
+
+.big {
+	font-size:2.2em;
 }
 
 section {
@@ -236,7 +293,7 @@ section p {
 }
 
 section .top_heading {
-	color:#0e6b92;
+	color:#fff;
 	font-size:1.4em;
 	width:94%;
 	padding-left:6.33433%;
@@ -267,7 +324,7 @@ nav {
 .glare {
 	width:100%; /*230px*/
 	height:50px;
-	background:transparent;
+	background:url('../images/glare.png');
 	height:50px;
 }
 
@@ -298,7 +355,8 @@ ul#global_nav {
 	font-size:1em;
 }
 #global_nav li a:hover {
-	background:#dbf36c;
+	background:url('../images/glare.png') bottom;
+	height:35px;
 	color:#000;
 }
 
