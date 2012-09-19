@@ -71,6 +71,12 @@ a:active {
 	-webkit-text-shadow: 0px 1px 2px #000;
 }
 
+.light_shadow {
+	text-shadow: 0px 1px 2px #999;
+	-moz-text-shadow: 0px 1px 2px #999;
+	-webkit-text-shadow: 0px 1px 2px #999;
+}
+
 .products {
 	width: 270px;
 	padding-top:.332323%;
@@ -134,7 +140,7 @@ img.left_space {
 
 .aboutustext {
 	color:#f2f2f2;
-	padding-bottom:1.53434%;
+	padding-bottom:2.53434%;
 }
 
 h1 {
@@ -148,7 +154,8 @@ h3 {
 
 h2 {
 	font-size:2.2em;
-	margin-left:2.323232%;
+	margin-left:.323232%;
+	padding:1%;
 
 }
 
@@ -170,7 +177,7 @@ neon yellow #dbf36c
 /* ====================================== Layout */
 
 
-body{
+body {
 	max-width:960px;
 	min-height:100%;
 	margin:0 auto;	
@@ -183,24 +190,22 @@ body{
 }
 
 #wrapper {
-	max-width:100%;
+	width:97.916667%;
 	margin:0 auto;
-	padding:0;
+	padding-left::1.0638298%; /*10px*/
+	padding-right::1.0638298%; /*10px*/
 	background:url('../images/global_bg2.jpg')repeat;
-	overflow:hidden;
+	background:#ff0;
 }
 
 #header_top {
-	width:97.916667%; /*940px*/
+	width:100%; /*940px*/
 	background:#000;
-	margin-left:1.0638298%; /*10px*/
 	height:50px;
 }
 
 #main_content {
-	width:97.91667%; /*940px;*/
-	float:right;
-	margin-right:.8638298%; /*10px*/
+	width:100%; /*940px*/
 	padding:0;
 	background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#000));	
 	background: -moz-linear-gradient(bottom, #323232, #000 940px);
@@ -213,8 +218,7 @@ footer {
 	background:#000 url('../images/footer_bg.jpg');
 	height:190px;
 	color:#fff;
-	width:97.8125%; /*939px*/
-	margin-left:1.25656%; /*10px*/;
+	width:100%; /*940px*/
 	clear:both;
 }
 
@@ -360,11 +364,10 @@ section a:link {
 nav {
 	background: -webkit-gradient(linear, left top, left bottom, from(#b4da00), to(#dbf36c));	
 	background: -moz-linear-gradient(bottom, #b4da00, #dbf36c 940px);
-	width:97.91667%; /*940px;*/
+	width:100%; /*940px;*/
 	margin:0;
 	padding:0;
 	float:left;
-	margin-left:1.0638298%; /*10px*/
 	background:#b4da00;
 }
 
@@ -425,9 +428,7 @@ ul#global_nav {
 }
 
 #banner {
-	width:97.91667%; /*940px*/
-	margin-left:1.0416667%; /*10px*/
-	margin-right:1.0416667%; /*10px*/
+	width:100%; /*940px*/
 
 }
 
@@ -455,9 +456,8 @@ ul#global_nav {
 /* Clients list */
 
 #clients {
-	width:97.340426%;
+	width:100%;
 	float:left;
-	margin-left:1.278765%; /*9px*/
 	overflow:hidden;
 	padding-bottom:2.4723404%; /*27px/940*/
 	background:#f2f2f2;
