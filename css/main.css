@@ -132,6 +132,11 @@ img.left_space {
 	float:right;
 }
 
+.aboutustext {
+	color:#f2f2f2;
+	padding-bottom:1.53434%;
+}
+
 h1 {
 	overflow:hidden;
 }
@@ -627,7 +632,7 @@ p.no_height {
 #custom_form form {
 	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));	
 	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-	margin:20px 0 0 0;
+	margin:0;
 	width:93.617021%; /*880px*/
 	line-height: 24px;
 	font-weight: bold;
@@ -709,19 +714,6 @@ textarea#textarea {
 	padding-left:60px;
 }
 
-#custom_form h3{
-	color:#000;
-	font-size:2.2em;
-	margin-right:10px;
-	padding-left:20px;
-	padding-right:10px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
-	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
-	padding-bottom:3px;
-	border:1px solid #ccc;
-	margin-top:10px;
-}
-
 /* ====================================== Form Content */
 
 /* ====================================== AboutUs elements */
@@ -730,18 +722,6 @@ textarea#textarea {
 	float:left;
 	width:73%;
 	margin-left:1.4992504%; /*10px*/
-}
-
-#aboutus_info h3 {
-	color:#0e6b92;
-	font-size:2.4em;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
-	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
-	padding-bottom:.44977511%; /*3px/667px*/
-	padding-left:1.44977511%; /*3px/667px*/
-	border:1px solid #ccc;
-	width:97.75%;
-	margin-top:1.4992504%; /*10px*/
 }
 
 #aboutus_info img {
