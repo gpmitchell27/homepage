@@ -175,6 +175,9 @@ neon yellow #dbf36c
 
 
 /* ====================================== Layout */
+html {
+	background:#f2f2f2;
+}
 
 
 body {
@@ -183,7 +186,7 @@ body {
 	margin:0 auto;	
 	padding:0;	
 	font:85%/1.2  Arial, Helvetica, sans-serif;
-	background:#f2f2f2;
+	background:#747474;
 	-webkit-box-shadow: 0px 0px 8px #000;
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
@@ -195,7 +198,6 @@ body {
 	padding-left::1.0638298%; /*10px*/
 	padding-right::1.0638298%; /*10px*/
 	background:url('../images/global_bg2.jpg')repeat;
-	background:#ff0;
 }
 
 #header_top {
@@ -220,6 +222,7 @@ footer {
 	color:#fff;
 	width:100%; /*940px*/
 	clear:both;
+	background:#f2f2f2;
 }
 
 /* ====================================== Layout */
@@ -485,88 +488,6 @@ ul#global_nav {
 	padding-left:5.0761421%; /*30px/591*/
 }
 
-#paypal_logo {
-	width:23.4681%; /*230px*/
-	background:#fff;
-	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-	float:right;
-	height:100px;
-	margin-top:1.0416667%; /*10px*/
-	overflow:hidden;
-	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));	
-	background: -moz-linear-gradient(bottom, #eee, #fff 675px);
-	margin-right:1.265957%; /*12px*/
-	margin-top:1.0638298%; /*10px*/
-	padding-bottom:19.191%; /*30px/940*/
-	float:right;
-	display:none;
-}
-
-#paypal_logo h3 {
-	color:#0e6b92;
-	font-size:1.4em;
-	padding-left:3.3840948%; /*20px/591*/
-	padding-top:.84602369%; /*5px*/
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dedede));	
-	background: -moz-linear-gradient(bottom, #dedede, #fff 100%);
-	padding-bottom:.50761421%; /*3px*/
-	border:1px solid #dfe2e6;
-
-}
-
-.paypal_banner {
-	font-weight: bold; 
-	font-size:1.4em;
-	text-shadow: 0px 1px 2px #000;
-	-moz-text-shadow: 0px 1px 2px #000;
-	-webkit-text-shadow: 0px 1px 2px #000;
-
-}
-
-#paypal_logo img {
-	width:25%; /*63px/315px*/
-	position:relative;
-	top:20px;
-	left:230px;
-}
-
-.cards_accepted {
-	width:200%;
-	position:relative;
-	top:-70px;
-	left:-190px;
-}
-
-.paypal_banner {
-	font-size:1.6em;
-	padding:0;
-	margin-left:3.1746032%; /*10px*/
-	margin-top:6.3492063%; /*20px/315*/
-}
-
-.boatgraphic {
-	width:23.4681%; /*230px*/
-
-}
-
-#paypal_logo img.resize {
-	width:140%;
-	background:#ff0000;
-	position:relative;
-	top:30px;
-	left:100px;
-}
-
-.boatgraphic p {
-	color:#dedede;
-	position:relative;
-	top:-20px;
-	left:15px;
-	color:#000;
-
-}
 
 /* ====================================== Main Content */
 
