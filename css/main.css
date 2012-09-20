@@ -1113,7 +1113,7 @@ textarea#textarea {
 	height:150px;
 	margin-left:1.068985%;
 	position:relative;
-	left:18px;
+	left:15px;
 }
 
 #submit_button {
@@ -1162,6 +1162,7 @@ body#quotes #side_nav {
 	overflow:hidden;
 	position:relative;
 	left:12px;
+	padding:3px;
 }
 
 
