@@ -612,7 +612,7 @@ textarea#textarea {
 #submit_button {
 	width:88.757396%; /*600px*/
 	height:50px;
-	padding-left:60px;
+	padding-left:10%; 
 }
 
 /* ====================================== Form Content */
@@ -1102,9 +1102,13 @@ textarea#textarea {
 #submit_button {
 	width:100%; /*600px*/
 	background:#ff0;
+	padding-bottom:80px;
+	padding:0;
+	margin:0;
 }
 
 .button {
 	float:left;
+	width:50%;
 }
 }
