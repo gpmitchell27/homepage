@@ -963,7 +963,7 @@ footer {
 }
 nav {
 	font-size:1em;
-	height:230px;
+	height:240px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
