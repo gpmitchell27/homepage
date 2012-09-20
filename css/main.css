@@ -493,7 +493,6 @@ p.no_height {
 .divider {
 	width:100%;
 	display:block;
-	height:100%;
 	border:none;
 }
 
@@ -818,11 +817,11 @@ ul#global_nav {
 }
 
 #global_nav li {
-	width:97.75%; /*940px;*/
+	width:97.91667%; /*940px;*/
 	text-align:center;
 	height:25px;
 	margin:0;
-	padding-left:1.0638298%; /*10px*/
+	display:block;
 }
 
 #global_nav li a {
@@ -830,14 +829,16 @@ ul#global_nav {
 	color:#000;
 	font-size:1.4em;
 	width:97.91667%; /*940px;*/
+	line-height:20px;
+	margin-right:1.0638755%;
 }
 
 #global_nav li a:hover {
 	background:#dbf36c;
-	padding:0;
-	margin:0;
+	margin:auto
 	width:97.91667%; /*940px;*/
 	height:25px;
+	line-height:20px;
 }
 
 .glare {
