@@ -1093,4 +1093,14 @@ h3.shadow {
 h5 {
 	padding:15px;
 }
+
+textarea#textarea {
+	width:100%; /*600px*/
+	height:150px;
+}
+
+#submit_button {
+	width:100%; /*600px*/
+	height:30px;
+}
 }
