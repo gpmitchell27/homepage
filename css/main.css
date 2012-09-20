@@ -653,10 +653,67 @@ textarea#textarea {
 
 @media screen and  (min-width:768px) and (max-width:959px) {
 
+html {
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#747474));	
+	background: -moz-linear-gradient(bottom, #f2f2f2, #747474 100%);
+}
+
+
+body {
+	max-width:960px;
+	min-height:100%;
+	margin:0 auto;	
+	padding:0;	
+	background:#747474;
+	font:85%/1.2  Arial, Helvetica, sans-serif;
+	-webkit-box-shadow: 0px 0px 8px #000;
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#wrapper {
+	width:97.916667%;
+	margin:0 auto;
+	padding-left:1.0638298%; /*10px*/
+	padding-right:1.0638298%; /*10px*/
+	background:url('../images/global_bg2.jpg')repeat;
+}
+
+#header_top {
+	width:100%; /*940px*/
+	background:#000;
+	height:50px;
+}
+
+#main_content {
+	width:100%; /*940px*/
+	padding:0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#000));	
+	background: -moz-linear-gradient(bottom, #323232, #000 940px);
+	overflow:hidden;
+}
+
+footer {
+	padding:0;
+	font-weight:bold;
+	background:#000 url('../images/footer_bg.jpg');
+	height:190px;
+	color:#fff;
+	width:100%; /*940px*/
+	clear:both;
+	background:#f2f2f2;
+}
+
 #prod3{
 		display:none;
-	}
+}
+
+
+h2.shadow {
+	font-size:1.6em;
+}
 	
+
 }
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and  (min-width:480px) and (max-width:767px) {
@@ -1033,5 +1090,10 @@ h3.shadow {
 
 #header_top {
 	display:none;
+}
+
+#form_container {
+	width:100%; /*676px*/
+	padding-bottom:4.2553191%; /*40px*/
 }
 }
