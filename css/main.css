@@ -1111,7 +1111,10 @@ h5 {
 textarea#textarea {
 	width:100%; /*600px*/
 	height:150px;
-	margin:0 auto;
+	margin-left:1.068985%;
+	background:#ff0;
+	position:relative;
+	left:18px;
 }
 
 #submit_button {
