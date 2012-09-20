@@ -980,6 +980,7 @@ h1.feature {
 	font-size:1.3em;
 	position:relative;
 	height:80px;
+	top:20px;
 }
 
 img.above {
@@ -1040,7 +1041,7 @@ ul#global_nav {
 }
 
 #prod1 {
-	margin-top:25px;
+	margin-top:10px;
 	padding-bottom:30px;
 }
 
