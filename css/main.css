@@ -892,12 +892,12 @@ footer {
 }
 nav {
 	font-size:0.825em;
-	height:180px;
+	height:160px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
 	position:relative;
-	top:80px;
+	top:55px;
 }
 
 #banner {
@@ -908,8 +908,8 @@ nav {
 h1.feature {
 	font-size:1.3em;
 	position:relative;
-	top:10px;
-	height:80px;
+	top:-15px;
+	height:50px;
 }
 
 #custom_design {
@@ -974,7 +974,7 @@ ul#global_nav {
 }
 
 #prod1 {
-	margin-top:50px;
+	margin-top:10px;
 	padding-bottom:30px;
 }
 
@@ -985,6 +985,10 @@ ul#global_nav {
 h2.shadow {
 	font-size:1.8em;
 } 
+
+h3.shadow {
+	margin:0;
+}
 
 #side_nav ul {
 	width:97.75%;
