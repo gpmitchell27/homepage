@@ -1066,6 +1066,27 @@ h3.shadow {
 	padding:0;
 }
 
+#clients ul {
+	list-style-type:none;
+	margin-top:.53191489%; /*5px*/
+	width:90%; /*591px*/
+	line-height:1.2;
+	margin-left:5.5%;
+}
+
+#clients li {
+	margin-top.3688663%; /*14px*/
+	float:left;
+	color:#555;
+	font-size:0.875em;
+}
+
+#clients ul li {
+	float:left;
+	width:24.688663%; /*140px*/
+	padding-left:5.0761421%; /*30px/591*/
+}
+
 
 .bottom_nav_right, .bottom_nav_left img {
 	display:none;
