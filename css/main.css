@@ -1101,6 +1101,10 @@ textarea#textarea {
 
 #submit_button {
 	width:100%; /*600px*/
-	height:30px;
+	background:#ff0;
+}
+
+.button {
+	float:left;
 }
 }
