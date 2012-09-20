@@ -893,18 +893,22 @@ footer {
 nav {
 	font-size:0.825em;
 	height:180px;
-	position:relative;
-	top:82px;
-	left:0px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
+	position:relative;
+	top:80px;
+}
+
+#banner {
+	position:relative;
+	top:-180px;
 }
 
 h1.feature {
 	font-size:1.3em;
 	position:relative;
-	top:70px;
+	top:10px;
 	height:80px;
 }
 
@@ -921,11 +925,6 @@ img.above {
 	width:100%; /*230px*/
 	background:url('../images/glare.png') no-repeat top;
 	height:25px;
-}
-
-#banner {
-	position:absolute;
-	top:0px;
 }
 
 ul#global_nav {
@@ -972,8 +971,6 @@ ul#global_nav {
 	width:97.91667%; /*940px;*/
 	padding:0;
 	margin:0;
-	position:relative;
-	top:50px;
 }
 
 #prod1 {
