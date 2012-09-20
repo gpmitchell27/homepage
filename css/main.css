@@ -465,7 +465,7 @@ ul#global_nav {
 }
 
 #clients li {
-	margin-top.3688663%; /*14px*/
+	margin-top:.3688663%; /*14px*/
 	float:left;
 	color:#555;
 	font-size:0.875em;
@@ -963,7 +963,7 @@ footer {
 }
 nav {
 	font-size:0.825em;
-	height:200px;
+	height:220px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
@@ -1026,6 +1026,7 @@ ul#global_nav {
 #prod3 {
 	display:none;
 }
+
 .glare {
 	width:100%; /*230px*/
 	background:transparent;
@@ -1075,7 +1076,7 @@ h3.shadow {
 }
 
 #clients li {
-	margin-top.3688663%; /*14px*/
+	margin-top:.3688663%; /*14px*/
 	float:left;
 	color:#555;
 	font-size:0.875em;
