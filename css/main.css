@@ -206,8 +206,8 @@ body {
 #wrapper {
 	width:97.916667%;
 	margin:0 auto;
-	padding-left::1.0638298%; /*10px*/
-	padding-right::1.0638298%; /*10px*/
+	padding-left:1.0638298%; /*10px*/
+	padding-right:1.0638298%; /*10px*/
 	background:url('../images/global_bg2.jpg')repeat;
 }
 
