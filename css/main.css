@@ -55,6 +55,10 @@ a:active {
 	color:#0f83b3;
 }
 
+.smaller {
+	font-size:1.3em;
+}
+
 .white {
 	color:#fff;
 }
