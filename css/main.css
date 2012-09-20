@@ -949,12 +949,12 @@ footer {
 }
 nav {
 	font-size:0.825em;
-	height:160px;
+	height:190px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
 	position:relative;
-	top:45px;
+	top:85px;
 }
 
 #banner {
@@ -993,7 +993,7 @@ ul#global_nav {
 #global_nav li {
 	width:97.91667%;
 	text-align:center;
-	height:35px;
+	height:32px;
 	margin:0;
 	display:block;
 	border-bottom:1px solid #96b51a;
