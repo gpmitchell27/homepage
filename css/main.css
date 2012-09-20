@@ -58,7 +58,7 @@ a:active {
 .smaller {
 	font-size:1.8em;
 	padding:10px;
-	margin-top:20px;
+	margin-top:25px;
 }
 
 .white {
@@ -1111,6 +1111,7 @@ h5 {
 textarea#textarea {
 	width:100%; /*600px*/
 	height:150px;
+	margin:0 auto;
 }
 
 #submit_button {
