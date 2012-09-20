@@ -1145,7 +1145,7 @@ body#quotes #side_nav {
 	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));	
 	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
 	margin:0;
-	width:95.75%; /*880px*/
+	width:93.75%; /*880px*/
 	line-height: 24px;
 	font-weight: bold;
 	color: #0f83b3;
