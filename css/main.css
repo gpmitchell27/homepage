@@ -187,7 +187,7 @@ neon yellow #dbf36c
 
 /* ====================================== Layout */
 html {
-	background:#f2f2f2;
+	background:#f2f2f2 url('../images/bodyy_bg.jpg') repeat-x top left;
 }
 
 
@@ -197,7 +197,6 @@ body {
 	margin:0 auto;	
 	padding:0;	
 	font:85%/1.2  Arial, Helvetica, sans-serif;
-	background:#747474;
 	-webkit-box-shadow: 0px 0px 8px #000;
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
