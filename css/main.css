@@ -949,12 +949,12 @@ footer {
 }
 nav {
 	font-size:0.825em;
-	height:190px;
+	height:200px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
 	position:relative;
-	top:75px;
+	top:85px;
 }
 
 #banner {
@@ -965,13 +965,7 @@ nav {
 h1.feature {
 	font-size:1.3em;
 	position:relative;
-	top:-15px;
 	height:80px;
-}
-
-#custom_design {
-	position:relative;
-	top:200px;
 }
 
 img.above {
