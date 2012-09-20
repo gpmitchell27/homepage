@@ -962,13 +962,13 @@ footer {
 	background:#f2f2f2;
 }
 nav {
-	font-size:0.825em;
-	height:220px;
+	font-size:1em;
+	height:230px;
 	background: -webkit-gradient(linear, left, right 940px, from(#b4da00), to(#dbf36c));
 	background: -moz-linear-gradient(left, #b4da00, #dbf36c 940px);
 	width:100%; /*940px;*/
 	position:relative;
-	top:95px;
+	top:105px;
 }
 
 #banner {
