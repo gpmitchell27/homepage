@@ -1120,4 +1120,29 @@ textarea#textarea {
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
+body#quotes#brands_nav {
+	display:none;
+}
+
+#custom_form form {
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));	
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+	margin:0;
+	width:97.75%; /*880px*/
+	line-height: 24px;
+	font-weight: bold;
+	color: #0f83b3;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:1.106363636%; /*10px*/
+	border: inset 1px #333;
+	border: solid 1px #ccc;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	overflow:hidden;
+}
+
 }
