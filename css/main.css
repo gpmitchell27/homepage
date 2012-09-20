@@ -51,6 +51,14 @@ a:active {
 	color:#000;
 }
 
+.blue {
+	color:#0f83b3;
+}
+
+.white {
+	color:#fff;
+}
+
 .green {
 	color:#b4da00;
 }
@@ -1120,7 +1128,7 @@ textarea#textarea {
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
-body#quotes#brands_nav {
+body#quotes #side_nav {
 	display:none;
 }
 
@@ -1144,5 +1152,6 @@ body#quotes#brands_nav {
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 	overflow:hidden;
 }
+
 
 }
