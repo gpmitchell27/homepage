@@ -13,7 +13,7 @@
 
 body#home a#home_nav,
 body#quotes a#quotes_nav,
-body#sponsors a#sponsors_nav,
+body#ourteam a#ourteam_nav,
 body#motox a#motox_nav,
 body#store a#store_nav,
 body#aboutus a#aboutus_nav {
@@ -1256,6 +1256,8 @@ body#quotes #side_nav {
 	margin:0;
 	padding:0;
 }
+
+body#ourteam .shadow
 
 body#aboutus .shadow {
 	margin-top:10px;
