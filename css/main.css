@@ -1419,10 +1419,14 @@ ul.other_items {
 }
 
 .quad_parts li {
-	height:15px;
+	height:30px;
 }	
 
 .bike_parts li {
-	height:15px;
+	height:30px;
+}
+
+.quads {
+	padding-bottom:25.454555%;
 }
 }
