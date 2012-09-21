@@ -1208,4 +1208,8 @@ body#quotes #side_nav {
 body#aboutus .shadow {
 	margin-top:10px;
 }
+
+body#aboutus ul#brands_nav {
+	margin-top:10px;
+}
 }
