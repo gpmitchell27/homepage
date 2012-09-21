@@ -1194,4 +1194,7 @@ body#quotes #side_nav {
 	display:none;
 }
 
+#clients li {
+	font-size:0.9;
+}
 }
