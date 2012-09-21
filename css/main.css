@@ -1204,4 +1204,8 @@ body#quotes #side_nav {
 	margin:0;
 	padding:0;
 }
+
+body#aboutus .shadow {
+	margin-top:10px;
+}
 }
