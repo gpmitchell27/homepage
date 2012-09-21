@@ -906,6 +906,9 @@ body{
 .dark input:hover {
 	width:55%;
 }
+#aboutus_info {
+	width:97.75%;
+}
 
 }
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
