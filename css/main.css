@@ -1190,5 +1190,8 @@ body#quotes #side_nav {
 	padding:10px;
 }
 
+.divider {
+	display:none;
+}
 
 }
