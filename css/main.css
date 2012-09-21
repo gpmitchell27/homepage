@@ -101,6 +101,29 @@ a:active {
 	margin-left:3.24534%;
 }
 
+.riders {
+	width: 300px;
+	padding-top:.332323%;
+	margin-left:3.24534%;
+}
+
+.riders li {
+	height:300px;
+}
+
+.riders p {
+	color:#999;
+	padding-bottom:12.21212%;
+}
+
+.push {
+	margin-left:34.23232%;
+}
+
+.profiles ul {
+	list-style-type:none;
+}
+
 .button a {
 	clear: both;
 	display: block;
@@ -671,8 +694,17 @@ textarea#textarea {
 
 .profiles {
 	padding:0.4em;
-	margin:0;
+	margin-left:12%;
 }
+
+body#sponsors #main_content {
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#dedede));	
+	background: -moz-linear-gradient(bottom, #f2f2f2, #dedede 940px);
+}
+
+
+/* ====================================== Sponsor page elements */
+
 
 /* = Media Queries
 ======================================================== */
