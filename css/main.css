@@ -1366,6 +1366,10 @@ body#sponsors .shadow {
 	margin-top:10px;
 }
 
+body#store .shadow {
+	margin-top:10px;
+}
+
 body#aboutus ul#brands_nav {
 	margin-top:10px;
 	margin-bottom:10px;
