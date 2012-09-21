@@ -1208,6 +1208,7 @@ body#quotes #side_nav {
 	float:right;
 	width:27px;
 	height:27px;
+	margin-top:3px;
 }
 
 #clients ul {
