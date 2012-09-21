@@ -1412,7 +1412,8 @@ ul.other_items {
 
 .other_items li {
 	color:#fff;
-	width:25%;
+	width:100%;
+	display:block;
 	padding:0;
 
 }	
