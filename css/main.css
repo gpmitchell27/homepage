@@ -1018,6 +1018,7 @@ ul#global_nav {
 	font-size:1.4em;
 	width:23%; /*940px;*/
 	line-height:30px;
+	padding-left:5.34434%;
 }
 
 #global_nav li a:hover {
@@ -1214,6 +1215,12 @@ body#quotes #side_nav {
 	width:100%;
 	margin:0;
 	padding:0;
+}
+
+.home {
+	background:url('../images/home.png') no-repeat;
+	float:left:;
+	padding:2px;
 }
 
 body#aboutus .shadow {
