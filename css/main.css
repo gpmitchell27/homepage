@@ -1027,6 +1027,7 @@ ul#global_nav {
 	font-size:1.4em;
 	width:23%; /*940px;*/
 	line-height:30px;
+	display:none;
 }
 
 #prod3 {
