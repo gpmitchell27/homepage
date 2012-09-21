@@ -191,9 +191,9 @@ a:active {
 	background: #fff;
 }
 
-.left_space {
-	padding-left:5.23323%;
-	padding-bottom:5.23323%;
+.left_little_space {
+	padding-left:1.23323%;
+	padding-bottom:1.23323%;
 }
 
 .above {
@@ -728,6 +728,70 @@ body#ourteam .shadow {
 /* ====================================== Sponsor page elements */
 
 
+/* ====================================== Store page elements */
+
+.motorbikes {
+	width:50%;
+	height:300px;
+	float:left;
+}
+
+.quads {
+	width:50%;
+	height:300px;
+	float:right;
+}
+
+body#store p {
+	color:#b4da00;
+}
+
+ul.other_items {
+	list-style-type:none;
+	font-size:1em;
+	width:100%;
+	margin-left:5.455555%;
+}
+
+.other_items li {
+	color:#fff;
+	float:left;
+	width:25%;
+	padding:0;
+
+}
+
+ul.bike_parts {
+	list-style-type: none;
+	margin-left:5.55445%;
+	margin-top:1.43545%;
+}
+
+ul.quad_parts {
+	list-style-type: none;
+	margin-left:5.55445%;
+	margin-top:1.43545%;
+}
+
+body#store .left_little_space {
+	padding-left:1.23323%;
+	padding-bottom:1.23323%;
+	padding-top:1.23323%;
+	margin-top:1.43242%;
+}
+
+.up {
+	position:relative;
+	top:-180px;
+}
+
+.up_l {
+	position:relative;
+	top:-180px;
+	left:-40px;
+}
+/* ====================================== Store page elements */
+
 /* = Media Queries
 ======================================================== */
 /*Tablet Portrait size to standard 960 (devices and browsers) */
@@ -980,8 +1044,15 @@ body{
 .left_space {
 	padding-left:1.23323%;
 	padding-bottom:5.23323%;
+}
+
+.motorbikes img {
+	display:none;
 }	
 
+.quads img {
+	display:none;
+}	
 }
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px)  {
@@ -1319,4 +1390,12 @@ body#aboutus #aboutus_info {
 #custom_design {
 	display:none;
 }
+
+.motorbikes img {
+	display:none;
+}	
+
+.quads img {
+	display:none;
+}	
 }
