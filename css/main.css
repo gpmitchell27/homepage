@@ -1218,4 +1218,9 @@ body#aboutus #aboutus_info img {
 	display:none;
 	
 }
+
+body#aboutus .aboutustext {
+	width:100%;
+	padding:5px;
+}
 }
