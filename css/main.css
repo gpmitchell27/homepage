@@ -102,9 +102,13 @@ a:active {
 }
 
 .riders {
-	width: 300px;
+	width: 250px;
 	padding-top:.332323%;
 	margin-left:3.24534%;
+}
+
+.riders img {
+	max-width:100%;
 }
 
 .riders li {
@@ -694,7 +698,6 @@ textarea#textarea {
 
 .profiles {
 	padding:0.4em;
-	margin-left:12%;
 }
 
 body#sponsors #main_content {
@@ -1282,9 +1285,6 @@ body#aboutus #aboutus_info {
 	width:97.75%;
 }
 
-.profiles {
-	padding:0.4em;
-}
 
 #custom_design {
 	display:none;
