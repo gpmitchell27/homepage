@@ -20,6 +20,11 @@ body#aboutus a#aboutus_nav {
 color: #0f83b3;
 }
 
+body#store .image_wrapper {
+	padding: 8px;
+	border: 1px solid #ccc;
+	background: #b4da00;
+}
 a:link, a:visited {
 	color:#fff;
 	font-size:1.2em;
