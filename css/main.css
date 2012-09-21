@@ -1415,7 +1415,14 @@ ul.other_items {
 	width:100%;
 	display:block;
 	padding:0;
-	height:30px;
+	height:15px;
+}
 
+.quads li {
+	height:15px;
 }	
+
+.motorbikes li {
+	height:15px;
+}
 }
