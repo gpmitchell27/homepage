@@ -279,6 +279,7 @@ body {
 	background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#000));	
 	background: -moz-linear-gradient(bottom, #323232, #000 940px);
 	overflow:hidden;
+	padding-bottom:2.43434%;
 }
 
 footer {
@@ -742,7 +743,7 @@ body#ourteam .shadow {
 	float:right;
 }
 
-body#store p {
+body#motox p {
 	color:#b4da00;
 }
 
@@ -773,7 +774,7 @@ ul.quad_parts {
 	margin-top:1.43545%;
 }
 
-body#store .left_little_space {
+body#motox .left_little_space {
 	padding-left:1.23323%;
 	padding-bottom:1.23323%;
 	padding-top:1.23323%;
@@ -789,6 +790,13 @@ body#store .left_little_space {
 	position:relative;
 	top:-180px;
 	left:-40px;
+}
+
+.bottom_menu {
+	float:right;
+	position:relative;
+	left:-40px;
+	padding:2.4674645%;
 }
 /* ====================================== Store page elements */
 
@@ -1366,7 +1374,7 @@ body#sponsors .shadow {
 	margin-top:10px;
 }
 
-body#store .shadow {
+body#motox .shadow {
 	margin-top:30px;
 }
 
