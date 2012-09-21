@@ -1214,7 +1214,7 @@ body#aboutus ul#brands_nav {
 	margin-bottom:10px;
 }
 
-body#aboutus img {
+body#aboutus #aboutus img {
 	display:none;
 	
 }
