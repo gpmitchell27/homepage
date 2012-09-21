@@ -1276,8 +1276,13 @@ body#quotes #side_nav {
 	padding:0;
 }
 
-body#ourteam .shadow h2 {
-	margin-top:20px;
+body#ourteam h2 {
+	margin-top:120px;
+}
+
+.intro {
+	padding-top:40px;
+	background:#000;
 }
 
 body#aboutus .shadow {
