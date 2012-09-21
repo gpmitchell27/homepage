@@ -20,7 +20,6 @@ body#aboutus a#aboutus_nav {
 color: #0f83b3;
 }
 
-
 a:link, a:visited {
 	color:#000;
 	font-size:1.2em;
@@ -993,7 +992,7 @@ img.above {
 
 .glare {
 	width:100%; /*230px*/
-	background:transparent;
+	background:url('../images/glare.png') no-repeat top;
 	height:25px;
 }
 
@@ -1012,22 +1011,22 @@ ul#global_nav {
 	border-bottom:1px solid #96b51a;
 }
 
-#global_nav li a:link {
+#global_nav li a {
 	text-decoration:none;
 	color:#000;
 	font-size:1.4em;
-	width:23%; /*940px;*/
+	width:100%; /*940px;*/
 	line-height:30px;
 }
 
 #global_nav li a:hover {
-	text-decoration:none;
-	color:#000;
+	background:#dbf36c;
+	margin:0;
 	font-size:1.4em;
-	width:23%; /*940px;*/
+	width:100%; /*940px;*/
+	height:35px;
 	line-height:30px;
 }
-
 #prod3 {
 	display:none;
 }
@@ -1035,7 +1034,7 @@ ul#global_nav {
 .glare {
 	width:100%; /*230px*/
 	background:transparent;
-	height:0px;
+	height:25px;
 }
 
 #side_nav {
@@ -1201,13 +1200,6 @@ body#quotes #side_nav {
 #clients li {
 	font-size:0.7em;
 	padding:5px 15px;
-}
-
-.right_arrow {
-	background:url('../images/arrow.png') no-repeat;
-	float:right;
-	width:27px;
-	height:27px;
 }
 
 #clients ul {
