@@ -21,7 +21,7 @@ color: #0f83b3;
 }
 
 a:link, a:visited {
-	color:#000;
+	color:#fff;
 	font-size:1.2em;
 }
 
@@ -45,6 +45,10 @@ a:active {
 	font-family:Arial, Helvetica, sans-serif;
 	background:#000;
 	height:110px;
+}
+
+.center {
+	text-align:center;
 }
 
 .black {
@@ -149,10 +153,6 @@ a:active {
 .left_space {
 	padding-left:5.23323%;
 	padding-bottom:5.23323%;
-}
-
-img.left_space {
-	padding-top:2.55454%;
 }
 
 .above {
@@ -440,9 +440,9 @@ ul#global_nav {
 /* Custom design */
 
 #custom_design {
-	width:72.978723%; /*686px*/
+	width:100%; /*686px*/
 	background:#000;
-	display:none;
+	overflow:hidden;
 }
 
 /* Clients list */
@@ -660,6 +660,20 @@ textarea#textarea {
 
 /* ====================================== AboutUs elements */
 
+
+
+/* ====================================== Sponsor page elements */
+
+.intro {
+	width:100%;
+	background:#000;
+}
+
+.profiles {
+	padding:0.4em;
+	margin:0;
+}
+
 /* = Media Queries
 ======================================================== */
 /*Tablet Portrait size to standard 960 (devices and browsers) */
@@ -726,7 +740,6 @@ footer {
 h2.shadow {
 	font-size:1.6em;
 }
-	
 
 }
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -909,6 +922,11 @@ body{
 #aboutus_info {
 	width:97.75%;
 }
+
+.left_space {
+	padding-left:1.23323%;
+	padding-bottom:5.23323%;
+}	
 
 }
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -1226,5 +1244,9 @@ body#aboutus .aboutustext p {
 
 body#aboutus #aboutus_info {
 	width:97.75%;
+}
+
+#custom_design {
+	display:none;
 }
 }
