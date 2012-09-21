@@ -1219,7 +1219,7 @@ body#aboutus #aboutus_info img {
 	
 }
 
-body#aboutus .aboutustext {
+body#aboutus .aboutustext p {
 	width:100%;
 	padding:5px;
 }
