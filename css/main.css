@@ -965,7 +965,6 @@ footer {
 	clear:both;
 	background:#f2f2f2;
 }
-
 nav {
 	font-size:0.825em;
 	height:200px;
@@ -1013,7 +1012,7 @@ ul#global_nav {
 	border-bottom:1px solid #96b51a;
 }
 
-#global_nav a:link {
+#global_nav li a:link {
 	text-decoration:none;
 	color:#000;
 	font-size:1.4em;
@@ -1027,11 +1026,16 @@ ul#global_nav {
 	font-size:1.4em;
 	width:23%; /*940px;*/
 	line-height:30px;
-	display:none;
 }
 
 #prod3 {
 	display:none;
+}
+
+.glare {
+	width:100%; /*230px*/
+	background:transparent;
+	height:0px;
 }
 
 #side_nav {
@@ -1204,7 +1208,6 @@ body#quotes #side_nav {
 	float:right;
 	width:27px;
 	height:27px;
-	margin-top:6px;
 }
 
 #clients ul {
