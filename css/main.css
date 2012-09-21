@@ -1196,12 +1196,12 @@ body#quotes #side_nav {
 
 #clients li {
 	font-size:0.7em;
-	float:left;
 }
 
 #clients ul {
 	width:100%;
 	margin:0;
 	padding:0;
+	float:left;
 }
 }
