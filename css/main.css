@@ -1222,5 +1222,10 @@ body#aboutus #aboutus_info img {
 body#aboutus .aboutustext p {
 	width:100%;
 	padding:5px;
+	margin:0;
+}
+
+body#aboutus #aboutus_info {
+	width:97.75%;
 }
 }
