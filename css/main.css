@@ -1282,6 +1282,10 @@ body#aboutus #aboutus_info {
 	width:97.75%;
 }
 
+.profiles {
+	padding:0.4em;
+}
+
 #custom_design {
 	display:none;
 }
