@@ -1004,10 +1004,8 @@ ul#global_nav {
 
 #global_nav li {
 	width:97.91667%;
-	text-align:left;
 	height:32px;
 	margin:0;
-	display:block;
 	border-bottom:1px solid #96b51a;
 }
 
@@ -1017,6 +1015,9 @@ ul#global_nav {
 	font-size:1.4em;
 	width:100%; /*940px;*/
 	line-height:30px;
+	display:block;
+	padding-left:-150px;
+	background:#cdf800;
 }
 
 #global_nav li a:hover {
