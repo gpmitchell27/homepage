@@ -990,12 +990,6 @@ img.above {
 	display:none;
 }
 
-.glare {
-	width:100%; /*230px*/
-	background:url('../images/glare.png') no-repeat top;
-	height:25px;
-}
-
 ul#global_nav {
 	list-style-type:none;
 	width:97.91667%;
@@ -1035,7 +1029,7 @@ ul#global_nav {
 .glare {
 	width:100%; /*230px*/
 	background:transparent;
-	height:25px;
+	height:35px;
 }
 
 #side_nav {
