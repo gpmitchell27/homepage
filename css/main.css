@@ -1195,6 +1195,10 @@ body#quotes #side_nav {
 }
 
 #clients li {
-	font-size:0.9;
+	font-size:0.7em;
+}
+
+#clients ul {
+	width:85%;
 }
 }
