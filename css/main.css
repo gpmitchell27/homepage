@@ -965,6 +965,7 @@ footer {
 	clear:both;
 	background:#f2f2f2;
 }
+
 nav {
 	font-size:0.825em;
 	height:200px;
@@ -1012,7 +1013,7 @@ ul#global_nav {
 	border-bottom:1px solid #96b51a;
 }
 
-#global_nav li a:link {
+#global_nav a:link {
 	text-decoration:none;
 	color:#000;
 	font-size:1.4em;
@@ -1030,12 +1031,6 @@ ul#global_nav {
 
 #prod3 {
 	display:none;
-}
-
-.glare {
-	width:100%; /*230px*/
-	background:transparent;
-	height:0px;
 }
 
 #side_nav {
