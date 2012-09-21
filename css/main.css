@@ -1401,5 +1401,19 @@ body#aboutus #aboutus_info {
 
 .quads img {
 	display:none;
+}
+
+ul.other_items {
+	list-style-type:none;
+	font-size:1em;
+	width:100%;
+	margin-left:5.455555%;
+}
+
+.other_items li {
+	color:#fff;
+	width:25%;
+	padding:0;
+
 }	
 }
