@@ -1198,6 +1198,7 @@ body#quotes #side_nav {
 	font-size:0.7em;
 	width:125px;
 	padding:2px;
+	float:left;
 }
 
 #clients ul {
