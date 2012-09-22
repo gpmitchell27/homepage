@@ -42,6 +42,10 @@ a:active {
 	clear:both;
 }
 
+
+/* reusable classes ============================================================================ */
+
+
 .feature {
 	font-size:2.2em;
 	color:#0f83b3;
@@ -84,10 +88,6 @@ a:active {
 	float:left;
 }
 
-#global_nav li.no_border {
-	border:none;
-}
-
 .shadow {
 	text-shadow: 0px 1px 2px #000;
 	-moz-text-shadow: 0px 1px 2px #000;
@@ -100,51 +100,12 @@ a:active {
 	-webkit-text-shadow: 0px 1px 2px #999;
 }
 
-.products {
-	width: 270px;
-	padding-top:.332323%;
-	margin-left:3.24534%;
+.top_heading {
+	width:100%; /*243px*/
+	padding-top:5px;
 }
-
-.riders {
-	width: 250px;
-	padding-top:.332323%;
-	margin-left:3.24534%;
-}
-
-.sponsors {
-	width: 270px;
-	margin-left:3.24534%;
-}
-
-.riders img {
-	max-width:100%;
-}
-
-.riders li {
-	height:300px;
-}
-
-.intro ul {
-	list-style-type: none;
-}
-
-.riders p {
-	color:#999;
-	padding-bottom:12.21212%;
-}
-
-.sponsors p {
-	color:#999;
-	padding-bottom:12.21212%;
-}
-
 .push {
 	margin-left:34.23232%;
-}
-
-.profiles ul {
-	list-style-type:none;
 }
 
 .button a {
@@ -214,13 +175,16 @@ a:active {
 	padding-bottom:2.53434%;
 }
 
+.big {
+	font-size:2.2em;
+}
+
 h1 {
 	overflow:hidden;
 }
 
 h3 {
-	padding:1%;
-	margin-left:12.434565%;
+	font-size:2.2em;
 }
 
 h2 {
@@ -230,10 +194,10 @@ h2 {
 
 }
 
-.products p {
-	color:#f2f2f2;
-	padding:2.323324% 2.323324% 2.323324% .700024%;
-}
+
+/* reusable classes ============================================================================  */
+
+
 
 /* Color Swatch ============================================================================ 
 
@@ -257,7 +221,7 @@ body {
 	min-height:100%;
 	margin:0 auto;	
 	padding:0;	
-	background:#747474;
+	background:#f2f2f2;
 	font:85%/1.2  Arial, Helvetica, sans-serif;
 	-webkit-box-shadow: 0px 0px 8px #000;
 	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
@@ -284,7 +248,6 @@ body {
 	background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#000));	
 	background: -moz-linear-gradient(bottom, #323232, #000 940px);
 	overflow:hidden;
-	padding-bottom:2.43434%;
 }
 
 footer {
@@ -356,9 +319,7 @@ footer {
 	width:55%;
 }
 
-h3 {
-	font-size:2.2em;
-}
+
 
 /* ====================================== Header Top */
 
@@ -390,17 +351,6 @@ ul#brands_nav {
 	font-size:1.25em;
 }
 
-.top_heading {
-	width:100%; /*243px*/
-	padding-top:5px;
-}
-
-.big {
-	font-size:2.2em;
-}
-
-
-
 /* ====================================== Sidebar */
 
 /* ====================================== Main Content */
@@ -415,6 +365,11 @@ nav {
 	padding:0;
 	float:left;
 	background:#b4da00;
+}
+
+
+#global_nav li.no_border {
+	border:none;
 }
 
 .glare {
@@ -731,6 +686,49 @@ body#ourteam .shadow {
 }
 
 
+.products {
+	width: 270px;
+	padding-top:.332323%;
+	margin-left:3.24534%;
+}
+
+.riders {
+	width: 250px;
+	padding-top:.332323%;
+	margin-left:3.24534%;
+}
+
+.sponsors {
+	width: 270px;
+	margin-left:3.24534%;
+}
+
+.riders img {
+	max-width:100%;
+}
+
+.riders li {
+	height:300px;
+}
+
+.intro ul {
+	list-style-type: none;
+}
+
+.riders p {
+	color:#999;
+	padding-bottom:12.21212%;
+}
+
+.sponsors p {
+	color:#999;
+	padding-bottom:12.21212%;
+}
+
+.profiles ul {
+	list-style-type:none;
+}
+
 /* ====================================== Sponsor page elements */
 
 
@@ -802,6 +800,11 @@ body#motox .left_little_space {
 	position:relative;
 	left:-40px;
 	padding:2.4674645%;
+}
+
+.products p {
+	color:#f2f2f2;
+	padding:2.323324% 2.323324% 2.323324% .700024%;
 }
 /* ====================================== Store page elements */
 
