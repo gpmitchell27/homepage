@@ -191,7 +191,6 @@ h2 {
 	font-size:2.2em;
 	margin-left:.323232%;
 	padding:1%;
-
 }
 
 
@@ -1444,5 +1443,10 @@ ul.other_items {
 
 .quads {
 	padding-bottom:30.454555%;
+}
+
+.feat_prod {
+	position:relative;
+	top:30px;
 }
 }
