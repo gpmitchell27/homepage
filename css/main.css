@@ -17,7 +17,7 @@ body#ourteam a#ourteam_nav,
 body#motox a#motox_nav,
 body#store a#store_nav,
 body#aboutus a#aboutus_nav {
-color: #0f83b3;
+color: #000;
 }
 
 body#store .image_wrapper {
@@ -858,6 +858,16 @@ body {
 	overflow:hidden;
 }
 
+footer {
+	padding:0;
+	font-weight:bold;
+	background:#000 url('../images/footer_bg.jpg');
+	height:190px;
+	color:#fff;
+	width:100%; /*940px*/
+	clear:both;
+	background:#f2f2f2;
+}
 
 #prod3{
 		display:none;
@@ -917,7 +927,7 @@ footer {
 	font-weight:bold;
 	background:#000 url('../images/footer_bg.jpg');
 	height:190px;
-	color:#000;
+	color:#fff;
 	width:100%; /*940px*/
 	clear:both;
 	background:#f2f2f2;
